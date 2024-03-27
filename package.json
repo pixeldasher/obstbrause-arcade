@@ -1,0 +1,15 @@
+{
+	"name": "arcade",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "bun run --watch src/index.ts"
+	},
+	"dependencies": {
+		"elysia": "latest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "latest",
+		"bun-types": "latest"
+	},
+	"module": "src/index.js"
+}
